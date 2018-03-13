@@ -1,5 +1,3 @@
-#######V3. 19.03.2018... changes were done in order to include a variable named $until, which contains the number of the groups, in previous versions the user should set the number directly inside the script, now does it taking in account the argument $num_groups
-
 #!/usr/bin/perl
 $table_total = $ARGV[0]; #(every 4rd column is a normal comparison)
 $num_groups = $ARGV[1];    ### here is the total number of columns of the file, must be first check if is divided by 4 or 5 or the numbers of groups.
